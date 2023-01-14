@@ -4,11 +4,12 @@
         "es2021": true
     },
     "extends": "eslint:recommended",
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
+    "plugins": ["spellcheck"],
     "rules": {
+        "spellcheck/spell-checker": ["error"]
     }
 }

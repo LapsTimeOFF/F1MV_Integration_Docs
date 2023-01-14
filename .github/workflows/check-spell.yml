@@ -1,0 +1,35 @@
+name: Check spell
+on:
+  # trigger deployment on every push to main branch
+  push:
+    branches: ["*"]
+  # trigger deployment manually
+  workflow_dispatch:
+
+jobs:
+  checkspell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # fetch all commits to get last updated time or other git log info
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          # choose pnpm version to use
+          version: 7
+          # install deps with pnpm
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          # choose node.js version to use
+          node-version: 18
+          # cache deps for pnpm
+          cache: pnpm
+        
+      - name: Check for spelling errors
+        run: pnpm spelling
