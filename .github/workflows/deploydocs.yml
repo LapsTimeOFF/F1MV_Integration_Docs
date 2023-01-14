@@ -3,7 +3,7 @@ name: Deploy docs on Github Pages
 on:
   # trigger deployment on every push to main branch
   push:
-    branches: [*]
+    branches: ["*"]
   # trigger deployment manually
   workflow_dispatch:
 
