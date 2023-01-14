@@ -13,6 +13,7 @@
   "author": "LapsTime",
   "license": "MIT",
   "devDependencies": {
+    "@snippetors/vuepress-plugin-code-copy": "^1.1.3",
     "@vuepress/client": "2.0.0-beta.60",
     "@vuepress/plugin-external-link-icon": "2.0.0-beta.60",
     "eslint": "^8.31.0",

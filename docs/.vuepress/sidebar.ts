@@ -12,5 +12,11 @@ export default {
 				'Plugin Developer Role.md',
 			],
 		},
+		{
+			text: 'Sharing',
+			children: [
+				'Share.md',
+			],
+		},
 	],
 };

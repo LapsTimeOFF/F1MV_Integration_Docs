@@ -8,10 +8,9 @@ Just kidding, here you will learn about the API.
 
 Alright, making an integration is cool and all, but there are some prerequisites to it. To create an integration, you can use any language, but just keep a few "rules" in mind,
 
-* Make your integration easy for everyone to use.
-* Create a "beautiful" UI in English !
-* Make it Open-Source on GitHub !
-* You will be BANNED :hammer: if your app is white mode only.
+* There is no bad integration
+* Don't force yourself to make it
+* And be happy about what you're making
 
 If you're going to use JavaScript for your integration, I recommend you to use the [NPM_F1MV_API](https://github/LapsTimeOFF/npm_f1mv_api) module. It will help you to call easily the F1MV API.
 
