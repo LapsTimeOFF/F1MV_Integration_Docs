@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "spelling": "markdown-spellcheck \"**/*.md\" \"!**/node_modules/**/*.md\" -r"
+    "spelling": "npx -y markdown-spellcheck \"**/*.md\" \"!**/node_modules/**/*.md\" -r"
   },
   "keywords": [],
   "author": "LapsTime",
