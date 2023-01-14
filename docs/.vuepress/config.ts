@@ -1,5 +1,6 @@
-import { defineUserConfig } from "vuepress";
+import { defaultTheme, defineUserConfig } from "vuepress";
 import { externalLinkIconPlugin } from "@vuepress/plugin-external-link-icon";
+import sidebar from "./sidebar";
 
 export default defineUserConfig({
   lang: "en-US",
@@ -11,4 +12,7 @@ export default defineUserConfig({
       // options
     }),
   ],
+  theme: defaultTheme({
+    sidebar
+  })
 });

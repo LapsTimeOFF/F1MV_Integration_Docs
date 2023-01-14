@@ -5,3 +5,6 @@
 # where filename is relative to this configuration file
 multiviewer
 f1
+npm_f1mv_api
+f1mv
+plugin
