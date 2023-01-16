@@ -38,6 +38,8 @@ jobs:
           # cache deps for pnpm
           cache: pnpm
 
+      - run: export NODE_OPTIONS=--openssl-legacy-provider
+
       # run build script
       - name: Build VuePress site
         run: pnpm docs:build
