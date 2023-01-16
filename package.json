@@ -1,8 +1,7 @@
 {
   "name": "F1MV_Integration_Docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Get started with the F1MV API !",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -18,9 +17,11 @@
     "@vuepress/plugin-external-link-icon": "2.0.0-beta.60",
     "eslint": "^8.31.0",
     "eslint-plugin-spellcheck": "^0.0.20",
+    "markdown-it": "^8.4.2",
     "markdown-spellcheck": "^1.3.1",
     "sinon": "^1.17.7",
-    "vue": "^3.2.45",
-    "vuepress": "2.0.0-beta.60"
+    "vue": "2.7.14",
+    "vuepress": "1",
+    "vuepress-theme-vt": "^0.7.6"
   }
 }
