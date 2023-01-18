@@ -4,7 +4,7 @@ export default {
 			text: 'Home',
 			children: [
 				'/',
-			],
+			]
 		},
 		{
 			text: 'Plugin Developer role',
@@ -16,6 +16,12 @@ export default {
 			text: 'Sharing',
 			children: [
 				'Share.md',
+			],
+		},
+		{
+			text: 'Get started',
+			children: [
+				'NPM_F1MV_API.md',
 			],
 		},
 	],
