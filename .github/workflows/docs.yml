@@ -26,9 +26,9 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           # choose pnpm version to use
-          version: 7
-          # install deps with pnpm
-          run_install: true
+          version: latest
+
+      - run: pnpm i
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
