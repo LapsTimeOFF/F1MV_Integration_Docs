@@ -28,7 +28,7 @@ jobs:
           # choose pnpm version to use
           version: latest
 
-      - run: pnpm i
+      - run: pnpm i --no-frozen-lockfile
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
