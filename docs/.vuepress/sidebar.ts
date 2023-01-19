@@ -9,19 +9,25 @@ export default {
 		{
 			text: 'Plugin Developer role',
 			children: [
-				'Plugin Developer Role.md',
+				'/Plugin Developer Role.md',
 			],
 		},
 		{
 			text: 'Sharing',
 			children: [
-				'Share.md',
+				'/Share.md',
 			],
 		},
 		{
 			text: 'Get started',
 			children: [
-				'NPM_F1MV_API.md',
+				'/NPM_F1MV_API.md',
+			],
+		},
+		{
+			text: 'Public API',
+			children: [
+				'/public/GetCricuitData.md',
 			],
 		},
 	],
