@@ -28,6 +28,7 @@ export default {
 			text: 'Public API',
 			children: [
 				'/public/GetCricuitData.md',
+				'/public/GetFIADocuments.md',
 			],
 		},
 	],
