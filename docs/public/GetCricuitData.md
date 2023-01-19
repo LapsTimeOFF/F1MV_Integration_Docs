@@ -1,6 +1,6 @@
 # Get Circuit Data
 
-With the F1MV Public API, you can get data about a specific circuit. For that you will need 1 thing :
+With the F1MV Public API, you can get data about a specific circuit. For that you will need one thing :
 
 * The circuitId
 
@@ -9,7 +9,7 @@ With the F1MV Public API, you can get data about a specific circuit. For that yo
 Here are the steps to get the circuit ID :
 
 * Open MultiViewer
-* Open the (Replay) Live Timing of the wanted cicuit
+* Open the (Replay) Live Timing of the wanted circuit
 * Then call the API
 
 <CodeGroup>
