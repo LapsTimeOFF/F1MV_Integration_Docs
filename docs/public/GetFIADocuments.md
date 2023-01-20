@@ -9,7 +9,7 @@ The path is the following one :
 <code>https://api.multiviewer.app/api/v1/fia-documents/:year</code>
 
 ::: warning
-You can't request  FiA Docuements before 2019
+You can't request  FiA Documents before 2019
 :::
 
 <CodeGroup>
