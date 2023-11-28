@@ -12,7 +12,7 @@ Alright, making an integration is cool and all, but there are some prerequisites
 * Don't force yourself to make it
 * And be happy about what you're making
 
-If you're going to use JavaScript for your integration, I recommend you to use the [NPM_F1MV_API](https://github/LapsTimeOFF/npm_f1mv_api) module. It will help you to call easily the F1MV API.
+If you're going to use JavaScript for your integration, I recommend you to use the [NPM_F1MV_API](https://github.com/LapsTimeOFF/npm_f1mv_api) module. It will help you to call easily the F1MV API.
 
 ## About the Plugin Developer role
 
